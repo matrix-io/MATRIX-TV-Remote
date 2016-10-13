@@ -1,0 +1,115 @@
+body{
+    background-image: url(images/background.png);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #f0edf2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    font: normal normal normal 50px Arial,sans-serif;
+}
+
+::-moz-selection{
+    background-color:Transparent;
+    color:#fff;
+    }
+
+::selection {
+    background-color:Transparent;
+    color:#fff;
+    }
+
+@font-face {
+    font-family: "BN-titling-oblique";
+    src: url(fonts/big-noodle-titling-oblique.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "BN-titling";
+    src: url(fonts/big-noodle-titling.ttf) format("truetype");
+}
+
+#users-connected{
+	display: block;
+	margin: auto;
+	margin-bottom: 15px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: #fff;
+	background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#users-connected-text{
+	margin: 0px;
+	font-size: 35px;
+	font-family: "BN-titling", Fallback, sans-serif;
+}
+
+#users-connected-update{
+
+}
+
+.control-wrapper::-moz-selection,
+.control-wrapper::selection{
+	background-color:Transparent;
+    color:#fff;
+}
+
+.control-wrapper {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+    max-width: 300px;
+    height: auto;
+}
+
+.buttons {
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    width: 25%;
+    max-width: 50px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.49);
+    border-radius: 0px;
+}
+
+.buttons:hover {
+    background-color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.buttons:active {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.button-text{
+	font-family: "BN-titling", Fallback, sans-serif;
+	font-size: 50px;
+	color: #fff;
+	margin: 0;
+	pointer-events: none;
+}
+
+#send-button{
+	width: 50%;
+    margin: auto;
+    display: block;
+    font-size: 100%;
+    height: 20%;
+}
+
+
+@media (max-width: 337px) {
+  .buttons{
+    padding: 8px;
+    width: 17%;
+}
