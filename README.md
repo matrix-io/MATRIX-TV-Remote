@@ -30,7 +30,10 @@
 
 [![Demo CountPages alpha](https://j.gifs.com/mwE3R3.gif)](https://www.youtube.com/watch?v=lfOGHcrfKXI)
 
-[![Demo CountPages alpha](https://j.gifs.com/76A5g1.gif)](https://www.youtube.com/watch?v=U1H_PS9KK8s)
+[![ScreenShot](https://i.ytimg.com/vi/U1H_PS9KK8s/hqdefault.jpg)](http://youtu.be/U1H_PS9KK8s)
+
+
+
 
 
 
