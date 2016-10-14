@@ -1,4 +1,4 @@
-# matrix-TV
+# Matrix-TV-Remote
 <b>Current Features:</b>
   - 0-9 Remote Numpad<br>
   - A counter to show current users connected<br>
