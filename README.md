@@ -1,4 +1,4 @@
-# Matrix-TV-Remote
+# MATRIX-TV-Remote
 <b>Current Features:</b>
   - Premade Remote Buttons<br>
   - A counter to show current users connected<br>
