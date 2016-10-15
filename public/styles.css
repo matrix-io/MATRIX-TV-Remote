@@ -35,7 +35,6 @@ body{
 #users-connected{
 	display: block;
 	margin: auto;
-	margin-bottom: 15px;
 	width: 100%;
 	height: auto;
 	text-align: center;
@@ -54,6 +53,58 @@ body{
 #users-connected-update{
 
 }
+
+#navigation{
+    display: block;
+    margin:auto;
+    margin-bottom: 15px;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+.nav-item, .nav-slash{
+    display: inline-block;
+    font-size: 50px
+    color: #000;
+    font-family: "BN-titling";
+    list-style-type: none;
+}
+
+#nav-item1{
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+#nav-item2{
+
+}
+
+.nav-item{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 7px;
+    font-family: "BN-titling";
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.50) !important;
+    cursor: pointer;
+}
+
+.nav-item:active {
+    background-color: rgba(0, 0, 0, 0.50) !important;
+    color: #fff;
+}
+
+.nav-item::-moz-selection,
+.nav-item::selection{
+    background-color:Transparent;
+    color:#000;
+}
+
 
 .control-wrapper::-moz-selection,
 .control-wrapper::selection{
@@ -75,11 +126,11 @@ body{
     display: inline-block;
     margin: auto;
     padding: 20px;
-    width: 25%;
+    width: 30%;
     max-width: 50px;
     height: auto;
     background-color: rgba(0, 0, 0, 0.49);
-    border-radius: 0px;
+    border-radius: 100%;
 }
 
 .buttons:hover {
@@ -99,17 +150,37 @@ body{
 	pointer-events: none;
 }
 
-#send-button{
-	width: 50%;
-    margin: auto;
-    display: block;
-    font-size: 100%;
-    height: 20%;
+.numpad{
+    margin: 0;
+    padding: 0;
 }
 
+@media (max-width: 365px) {
+  .nav-item, .nav-slash{
+    font-size: 40px;
+}
 
 @media (max-width: 337px) {
   .buttons{
-    padding: 8px;
+    padding: 10px;
     width: 17%;
+}
+
+@media (max-width: 298px) {
+  .nav-item, .nav-slash{
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 270px) {
+  .nav-item, .nav-slash{
+    font-size: 30px;
+  }
+  #button-power{
+    font-size: 19px;
+  }
+  #button-guide, #button-enter{
+    font-size: 20px;
+  }
+
 }

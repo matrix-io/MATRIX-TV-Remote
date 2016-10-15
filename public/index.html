@@ -14,58 +14,140 @@
 		<span id="users-connected-update">0</span>
 	</p>
 </div>
-
-<!--Main Controls-->
-<div class="control-wrapper">
-	<!--Button 1-->
-	<div id="button-1" class="buttons">
-		<p class="button-text">1</p>
+<!--Navigation-->
+<ul id="navigation">
+	<li id="nav-item1" class="nav-item">NumPad</li>
+	<li class="nav-slash">/</li>
+	<li id="nav-item2" class="nav-item">Controls</li>
+</ul>
+<!--NumPad-->
+<div id="numpad-layout" style="display:none">
+	<div class="control-wrapper">
+		<!--Button 1-->
+		<div id="button-1" class="buttons">
+			<p class="button-text">1</p>
+		</div>
+		<!--Button 2-->
+		<div id="button-2" class="buttons">
+			<p class="button-text">2</p>
+		</div>
+		<!--Button 3-->
+		<div id="button-3" class="buttons">
+			<p class="button-text">3</p>
+		</div>
 	</div>
-	<!--Button 2-->
-	<div id="button-2" class="buttons">
-		<p class="button-text">2</p>
+	<div class="control-wrapper">
+		<!--Button 4-->
+		<div id="button-4" class="buttons">
+			<p class="button-text">4</p>
+		</div>
+		<!--Button 5-->
+		<div id="button-5" class="buttons">
+			<p class="button-text">5</p>
+		</div>
+		<!--Button 6-->
+		<div id="button-6" class="buttons">
+			<p class="button-text">6</p>
+		</div>
 	</div>
-	<!--Button 3-->
-	<div id="button-3" class="buttons">
-		<p class="button-text">3</p>
+	<div class="control-wrapper">
+		<!--Button 7-->
+		<div id="button-7" class="buttons">
+			<p class="button-text">7</p>
+		</div>
+		<!--Button 8-->
+		<div id="button-8" class="buttons">
+			<p class="button-text">8</p>
+		</div>
+		<!--Button 9-->
+		<div id="button-9" class="buttons">
+			<p class="button-text">9</p>
+		</div>
+	</div>
+	<div class="control-wrapper">
+		<!--Button ENTER-->
+		<div id="button-enter" class="buttons">
+			<p class="button-text" style="font-size: 28px;">Enter</p>
+		</div>
+		<!--Button 10-->
+		<div id="button-0" class="buttons">
+			<p class="button-text">0</p>
+		</div>
+		<!--Button LAST-->
+		<div id="button-last" class="buttons">
+			<p class="button-text" style="font-size: 28px;">Last</p>
+		</div>
 	</div>
 </div>
-<div class="control-wrapper">
-	<!--Button 4-->
-	<div id="button-4" class="buttons">
-		<p class="button-text">4</p>
+<!--Controls-->
+<div id="controls-layout" style="display: none">
+	<div class="control-wrapper">
+		<!--MUTE-->
+		<div id="button-mute" class="buttons">
+			<p class="button-text" style="font-size: 25px;">Mute</p>
+		</div>
+		<!--POWER-->
+		<div id="button-power" class="buttons">
+			<p class="button-text" style="font-size: 25px;">Power</p>
+		</div>
 	</div>
-	<!--Button 5-->
-	<div id="button-5" class="buttons">
-		<p class="button-text">5</p>
+	<div class="control-wrapper">
+		<!--Button VOLUME+-->
+		<div id="button-volume-up" class="buttons">
+			<p class="button-text" style="font-size: 28px";>VOL+</p>
+		</div>
+		<!--Button INFO-->
+		<div id="button-info" class="buttons">
+			<p class="button-text" style="font-size: 28px";>Info</p>
+		</div>
+		<!--Button CHANNEL+-->
+		<div id="button-channel-up" class="buttons">
+			<p class="button-text" style="font-size: 28px";>CH+</p>
+		</div>
 	</div>
-	<!--Button 6-->
-	<div id="button-6" class="buttons">
-		<p class="button-text">6</p>
+	<div class="control-wrapper">
+		<!--Button VOLUME- -->
+		<div id="button-volume-down" class="buttons">
+			<p class="button-text" style="font-size: 28px";>VOL-</p>
+		</div>
+		<!--Button UP-->
+		<div id="button-up" class="buttons" style="border-top-left-radius: 100% !important; border-top-right-radius: 100% !important; border-bottom-left-radius: 0 !important; border-bottom-right-radius: 0 !important;">
+			<p class="button-text" style="font-size: 40px";>UP</p>
+		</div>
+		<!--Button CHANNEL- -->
+		<div id="button-channel-down" class="buttons">
+			<p class="button-text" style="font-size: 28px";>CH-</p>
+		</div>
+	</div>
+	<div class="control-wrapper">
+		<!--Button LEFT-->
+		<div id="button-left" class="buttons" style="border-top-left-radius: 100% !important; border-top-right-radius: 0 !important; border-bottom-left-radius: 100% !important; border-bottom-right-radius: 0 !important;">
+			<p class="button-text" style="font-size: 40px";>L</p>
+		</div>
+		<!--Button OK-->
+		<div id="button-ok" class="buttons">
+			<p class="button-text" style="font-size: 28px";>OK</p>
+		</div>
+		<!--Button RIGHT-->
+		<div id="button-right" class="buttons" style="border-top-left-radius: 0 !important; border-top-right-radius: 100% !important; border-bottom-left-radius: 0 !important; border-bottom-right-radius: 100% !important;">
+			<p class="button-text" style="font-size: 40px";>R</p>
+		</div>
+	</div>
+	<div class="control-wrapper">
+		<!--Button GUIDE-->
+		<div id="button-guide" class="buttons">
+			<p class="button-text" style="font-size: 28px;">Guide</p>
+		</div>
+		<!--Button DOWN-->
+		<div id="button-down" class="buttons" style="border-top-left-radius: 0 !important; border-top-right-radius: 0 !important; border-bottom-left-radius: 100% !important; border-bottom-right-radius: 100% !important;">
+			<p class="button-text" style="font-size: 40px";>DW</p>
+		</div>
+		<!--Button EXIT-->
+		<div id="button-exit" class="buttons">
+			<p class="button-text" style="font-size: 28px;">Exit</p>
+		</div>
 	</div>
 </div>
-<div class="control-wrapper">
-	<!--Button 7-->
-	<div id="button-7" class="buttons">
-		<p class="button-text">7</p>
-	</div>
-	<!--Button 8-->
-	<div id="button-8" class="buttons">
-		<p class="button-text">8</p>
-	</div>
-	<!--Button 9-->
-	<div id="button-9" class="buttons">
-		<p class="button-text">9</p>
-	</div>
-</div>
-<div class="control-wrapper">
-<!--Button 10-->
-	<div id="button-0" class="buttons">
-		<p class="button-text">0</p>
-	</div>
-</div>
-
-
 
 </body>
 
