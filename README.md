@@ -1,11 +1,12 @@
 # Matrix-TV-Remote
 <b>Current Features:</b>
-  - 0-9 Remote Numpad<br>
+  - Premade Remote Buttons<br>
   - A counter to show current users connected<br>
   - Mobile friendly (as far as I know)
   
 <b>Notes:</b>
   - I'll be adding more buttons later to make the site more functional.<br>
+  - Two buttons have no commands attached to them, but they can be set easily.
   
 <b>Setting up</b><br>
 
