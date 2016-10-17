@@ -25,7 +25,7 @@
 
 
 <b>4. Start the server</b>
-  - cd inside the folder you made and use ./node app<br>
+  - cd inside the folder you made and use: node app<br>
   
 <b>5. Connect to the website</b>
 - http://MATRIX_IP:PORT/ <br>
