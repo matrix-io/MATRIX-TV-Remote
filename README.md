@@ -5,6 +5,7 @@
   - Mobile friendly (as far as I know)
   
 <b>Notes:</b>
+  - UI has been updated from what is seen in the demos.
   - I'll be adding more buttons later to make the site more functional.<br>
   - Two buttons have no commands attached to them, but they can be set easily.
   
