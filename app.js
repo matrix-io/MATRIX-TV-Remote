@@ -8,7 +8,7 @@ var path = require('path');
 //EXPRESS SERVER
 ////////////////////
   //Define Public Dir
-  app.use(express.static('public'));
+  app.use(express.static(__dirname + '/public'));
   //Server Set Up
   var port = 8000
   http.listen(port,function(){
