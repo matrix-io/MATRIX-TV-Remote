@@ -1,3 +1,6 @@
+**⚠️Currently Depreciated Until New IR API Is Released⚠️**
+
+
 # MATRIX-TV-Remote
 <b>Current Features:</b>
   - Premade Remote Buttons<br>
