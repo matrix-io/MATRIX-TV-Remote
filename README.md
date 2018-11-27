@@ -1,5 +1,6 @@
-**⚠️Currently Depreciated Until New IR API Is Released⚠️**
+# **⚠️PROJECT HAS BEEN MOVED⚠️**
 
+You can visit the new repository here: https://github.com/matrix-io/MATRIX-TV-Remote-Website
 
 # MATRIX-TV-Remote
 <b>Current Features:</b>
