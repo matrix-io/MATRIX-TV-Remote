@@ -1,3 +1,7 @@
+# **⚠️PROJECT HAS BEEN MOVED⚠️**
+
+You can visit the new repository here: https://github.com/matrix-io/MATRIX-TV-Remote-Website
+
 # MATRIX-TV-Remote
 <b>Current Features:</b>
   - Premade Remote Buttons<br>
@@ -5,6 +9,7 @@
   - Mobile friendly (as far as I know)
   
 <b>Notes:</b>
+  - UI has been updated from what is seen in the demos.
   - I'll be adding more buttons later to make the site more functional.<br>
   - Two buttons have no commands attached to them, but they can be set easily.
   
@@ -24,7 +29,7 @@
 
 
 <b>4. Start the server</b>
-  - cd inside the folder you made and use ./node app<br>
+  - cd inside the folder you made and use: node app<br>
   
 <b>5. Connect to the website</b>
 - http://MATRIX_IP:PORT/ <br>
